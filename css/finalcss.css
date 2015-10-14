@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+	
+body {
+	background-color: black;
+	font-family: arial;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+.logo {
+	margin-top: 5%;
+	margin-bottom: 0%;
+	margin-left: 10%;
+	margin-right: 70%;
+	width: 20%;
+	line-height: 0em;
+}
+
+p {
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	margin: 0%;
+	padding: 0%;
+	line-height: .01em;
+}
+
+ul {
+	height: 1.5%;
+	text-align: center;
+	list-style-type: none;
+	margin-top: 2%;
+}
+
+ul li {
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+ul a {
+	color: white;
+	text-decoration: none;
+}
+
+.slideshow {
+	display: block;
+	border: 1% solid white;
+	float: right;
+	clear: left;
+	margin-right: 15%;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 10%;
+	width: 30%
+}
+
+#maincontent {
+	display: block;
+	margin-top: 12%;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: white;
+	font-size: 1.5em;
+}
+
+footer {
+	display: block;
+	height: 10%;
+	color: white;
+	border: 1% solid black;
+	margin: 10% 0%;
+	font-family: arial;
+	font-size: 1em;
+	padding-top: 10%;
+	text-align: center;
+	line-height: 1.5em;
+	}
+
+/* For mobile phones */
+
+@media only screen and (max-width: 400px)    {
+
+    #maincontent {
+        width:100%;   
+    }
+	
+	header {
+		width: 100%; 
+	}
+	
+	nav {
+		width: 100%; 
+	}
+
+	aside {
+		width: 100%; 
+	}
+	
+	.slideshow {
+		width: 70%;
+	}
+	
+	footer {
+		width: 100%; 
+	}
+
+}
+
+/* For tablet portrait */
+
+@media only screen and (max-width: 768px)    {
+
+    #maincontent {
+        width: 70%;   
+    }
+	
+	header {
+		width: 100%; 
+	}
+	
+	nav {
+		width: 100%; 
+	}
+
+	aside {
+		width: 30%; 
+	}
+	
+	footer {
+		width: 100%; 
+	}
+
+}
+
+
+	
