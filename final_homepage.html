@@ -7,11 +7,11 @@
 	<title>Kara K Photography- Home</title>
 	
 	<link href="css/finalcss.css" rel="stylesheet" type="text/css" />
-
+	<script src="js/photojs.js"></script>
 
 </head>
 
-<body>
+<body onload="slideA()">
 <div id=container>
 
 <header>
@@ -34,7 +34,9 @@ ________________________________________________________________________________
 </nav>
 
 <aside>
-	<img src="photos/h738.jpg" alt="slideshow" class="slideshow" />
+	<img src="photos/img1.jpg" alt="slideshow" id="img"/>
+	<div id="left_holder"><img onClick="slide(-1)" class="left" src="images/left_arrow.png"/></div>
+	<div id="right_holder"><img onClick="slide(1)" class="right" src="images/right_arrow.png"/></div>
 </aside>
 
 <div id=maincontent>

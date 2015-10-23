@@ -50,7 +50,7 @@ ul a {
 	text-decoration: none;
 }
 
-.slideshow {
+aside {
 	display: block;
 	border: 1% solid white;
 	float: right;
@@ -59,7 +59,25 @@ ul a {
 	margin-left: 5%;
 	margin-top: 2%;
 	margin-bottom: 10%;
-	width: 30%
+	width: 500px;
+}
+
+#img {
+	display: block;
+	margin-right: 15%;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 10%;
+	width: 500px;
+	position: absolute;
+}
+
+.left {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 40%;
+	left: 0%;
 }
 
 #maincontent {
