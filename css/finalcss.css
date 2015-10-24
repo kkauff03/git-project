@@ -9,7 +9,7 @@ body {
 }
 
 #container {
-	margin: 0 auto;
+	margin: 0%;
 	width: 100%;
 	height: 100%;
 }
@@ -17,7 +17,7 @@ body {
 .logo {
 	margin-top: 5%;
 	margin-bottom: 0%;
-	margin-left: 10%;
+	margin-left: 25%;
 	margin-right: 70%;
 	width: 20%;
 	line-height: 0em;
@@ -50,43 +50,58 @@ ul a {
 	text-decoration: none;
 }
 
-aside {
-	display: block;
-	border: 1% solid white;
+#slideshow {
 	float: right;
-	clear: left;
-	margin-right: 15%;
-	margin-left: 5%;
+	margin-right: 20%;
+	margin-left: 25%;
 	margin-top: 2%;
 	margin-bottom: 10%;
-	width: 500px;
+	width: 30%;
+	position: relative;
 }
 
 #img {
-	display: block;
-	margin-right: 15%;
+	margin-right: 5%;
 	margin-left: 5%;
 	margin-top: 2%;
 	margin-bottom: 10%;
-	width: 500px;
+	width: 100%;
 	position: absolute;
+}
+
+#left_holder {
+	width: 10%;
+	height: 100%;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
+
+#right_holder {
+	width: 10%;
+	height: 100%;
+	position: absolute;
+	right: 0%;
+	top: 0%;
 }
 
 .left {
-	width: 10px;
-	height: 10px;
-	position: absolute;
-	top: 40%;
-	left: 0%;
+	margin-top: 700%;
+	width: 75%;
+}
+
+.right {
+	margin-top: 700%;
+	width: 75%;
 }
 
 #maincontent {
-	display: block;
 	margin-top: 12%;
 	margin-left: 10%;
 	margin-right: 10%;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1em;
+	width: 35%;
 }
 
 footer {
@@ -94,7 +109,7 @@ footer {
 	height: 10%;
 	color: white;
 	border: 1% solid black;
-	margin: 10% 0%;
+	margin: 20% 0%;
 	font-family: arial;
 	font-size: 1em;
 	padding-top: 10%;
